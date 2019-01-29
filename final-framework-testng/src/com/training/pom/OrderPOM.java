@@ -21,29 +21,7 @@ import common.Assert;
  	}
  	
  	
- 	/*	@FindBy(id="login")
- 	private WebElement userName; 
  	
- 	@FindBy(id="password")
- 	private WebElement password;
- 	
- 	@FindBy(id="formLogin_submitAuth")
- 	private WebElement loginBtn; 
- 	
- 	public void sendUserName(String userName) {
- 		this.userName.clear();
- 		this.userName.sendKeys(userName);
- 	}
- 	
- 	public void sendPassword(String password) {
- 		this.password.clear(); 
- 		this.password.sendKeys(password); 
- 	}
- 	
- 	public void clickLoginBtn() {
- 		this.loginBtn.click(); 
- 	}
- 	*/
  	
  	
  	

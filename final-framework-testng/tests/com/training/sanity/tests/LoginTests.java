@@ -56,7 +56,7 @@ public class LoginTests {
 		loginPOM.clickregisterBtn();
 		loginPOM.sendUserName("Durga");
 		loginPOM.sendlastUserName123("Sen");
-		loginPOM.sendemail1234("sen_sonali@yahoo.com");
+		loginPOM.sendemail1234("sen_sonalizzzz@yahoo.com");
 		loginPOM.sendtel("24717587");
 		loginPOM.sendaddress1("P-128, Senhati,Regent Park");
 		loginPOM.sendaddress2("Tollygaunge");
