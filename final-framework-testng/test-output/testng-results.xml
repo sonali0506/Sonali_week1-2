@@ -2,28 +2,75 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67107" started-at="2019-01-29T07:28:02Z" finished-at="2019-01-29T07:29:09Z">
+  <suite name="Default suite" duration-ms="114780" started-at="2019-02-06T05:55:39Z" finished-at="2019-02-06T05:57:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67107" started-at="2019-01-29T07:28:02Z" finished-at="2019-01-29T07:29:09Z">
-      <class name="com.training.sanity.tests.ProductTests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.ProductTests@47c62251]" name="setUpBeforeClass" is-config="true" duration-ms="36" started-at="2019-01-29T07:28:02Z" finished-at="2019-01-29T07:28:02Z">
+    <test name="Default test" duration-ms="114780" started-at="2019-02-06T05:55:39Z" finished-at="2019-02-06T05:57:34Z">
+      <class name="com.training.regression.tests.ProductexcelTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.ProductexcelTest@3e6fa38a]" name="setUpBeforeClass" is-config="true" duration-ms="26" started-at="2019-02-06T05:55:39Z" finished-at="2019-02-06T05:55:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ProductTests@47c62251]" name="setUp" is-config="true" duration-ms="11927" started-at="2019-01-29T07:28:02Z" finished-at="2019-01-29T07:28:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.ProductexcelTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="10249" started-at="2019-02-06T05:55:41Z" finished-at="2019-02-06T05:55:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.ProductTests@47c62251]" name="validLoginTest" duration-ms="50104" started-at="2019-01-29T07:28:14Z" finished-at="2019-01-29T07:29:04Z">
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.ProductexcelTest@3e6fa38a]" name="loginDBTest" duration-ms="102458" started-at="2019-02-06T05:55:51Z" data-provider="excel-inputs1" finished-at="2019-02-06T05:57:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DurgaShivProductshiv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shivSambhuProductdesc123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shivSambhuAbhighnaMajumdar Finger Ring for ladies123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SKU-099]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[15000.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1000.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[56.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ProductTests@47c62251]" name="tearDown" is-config="true" duration-ms="5000" started-at="2019-01-29T07:29:04Z" finished-at="2019-01-29T07:29:09Z">
+        </test-method> <!-- loginDBTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.ProductexcelTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-02-06T05:57:34Z" finished-at="2019-02-06T05:57:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.ProductTests -->
+      </class> <!-- com.training.regression.tests.ProductexcelTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

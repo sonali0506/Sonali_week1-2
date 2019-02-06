@@ -42,7 +42,7 @@ public class LoginDBTest {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
 		loginadminPOM = new LoginadminPOM(driver);
 		baseUrl = properties.getProperty("baseURL");
-		screenShot = new ScreenShot(driver);
+		//screenShot = new ScreenShot(driver);
 		genericMethods = new GenericMethods(driver); 
 		// open the browser
 		driver.get(baseUrl);
@@ -56,16 +56,56 @@ public class LoginDBTest {
 
 
 	@Test(dataProvider = "db-inputs", dataProviderClass = LoginDataProviders.class)
-	public void loginDBTest(String userName, String password) {
+	public void loginDBTest( String Firstname ,String Lastname, String Email, String Telephone,  String  Address1, String Address2, String City,String Postcode,String Password, String Confirmpassword) {
 		// for demonstration 
 //		genericMethods.getElement("login", "id"); 
 				
-		loginadminPOM.sendUserName(userName);
+		//loginadminPOM.sendUserName(userName);
 		
-		loginadminPOM.sendPassword(password);
+		//loginadminPOM.sendPassword(password);
+	//	loginadminPOM.clickLoginBtn();
+		
+		
+		
+		
+		
+		
+		  
+			
 		loginadminPOM.clickLoginBtn();
+		loginadminPOM.clickregisterBtn();
+		loginadminPOM.sendUserName(Firstname);
+		loginadminPOM.sendlastUserName123(Lastname);
+		loginadminPOM.sendemail1234(Email);
+		loginadminPOM.sendtel(Telephone);
+		loginadminPOM.sendaddress1(Address1);
+		loginadminPOM.sendaddress2(Address2);
+		loginadminPOM.sendcity(City);
+		loginadminPOM.sendpostalcode(Postcode);
+		loginadminPOM.sendcountry();
+		loginadminPOM.sendcstate();
+		loginadminPOM.sendpwd(Password);
+		loginadminPOM.sendconpwd(Confirmpassword);
+		loginadminPOM.sendradiobutton();
+			
+		loginadminPOM.sendcheckbox();
+		loginadminPOM.sendclickContinueBtn();
 		
-		screenShot.captureScreenShot(userName);
+		
+		
+		
+		
+		
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		//screenShot.captureScreenShot(userName);
 
 	}
 
